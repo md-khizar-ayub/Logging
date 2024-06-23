@@ -8,6 +8,7 @@ public class Slf4jApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Slf4jApplication.class, args);
+		Slf4jExample1.test();
 	}
 
 }
